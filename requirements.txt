@@ -31,7 +31,7 @@ pymediainfo
 python-telegram-bot
 python-dotenv
 pytgcalls==3.0.0.dev24
-pyrogram==2.0.38
+pyrogram==2.0.106
 reportlab
 requests
 speedtest-cli==2.1.3
