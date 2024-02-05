@@ -45,14 +45,14 @@ async def alive(client: Client, message: Message):
     send = client.send_video if alive_logo.endswith(".mp4") else client.send_photo
     uptime = await get_readable_time((time.time() - StartTime))
     man = (
-        f"**꧁༺[RamPyro-Bot](https://github.com/GeezRamPy/Ram-Pyro)༻꧂**\n\n"
+        f"**꧁༺[CollasPyro-Bot](https://github.com/GeezRamPy/Ram-Pyro)༻꧂**\n\n"
         f"━───────╯•╰───────━\n"
         f"{emoji} <b>ʙᴏᴛ ᴠᴇʀsɪᴏɴ :</b> <code>{BOT_VER}</code> \n"
         f"{emoji} <b>ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :</b> <code>{python_version()}</code> \n"
         f"{emoji} <b>ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :</b> <code>{versipyro}</code> \n"
         f"━───────╮•╭───────━\n"
         f"➠ 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 : [❝𝐂𝐥𝐢𝐜𝐤❞ ](tg://user?id={client.me.id}) \n\n"
-        f"    **[𝚂𝚞𝚙𝚙𝚘𝚛𝚝](https://t.me/{GROUP})** | **[𝙲𝚑𝚊𝚗𝚗𝚎𝚕](https://t.me/{CHANNEL})** | **[𝙾𝚠𝚗𝚎𝚛](t.me/thisrama)**"
+        f"    **[𝚂𝚞𝚙𝚙𝚘𝚛𝚝](https://t.me/{GROUP})** | **[𝙲𝚑𝚊𝚗𝚗𝚎𝚕](https://t.me/{CHANNEL})** | **[𝙾𝚠𝚗𝚎𝚛](t.me/kjisses)**"
     )
     try:
         await asyncio.gather(
