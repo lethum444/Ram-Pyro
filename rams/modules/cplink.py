@@ -28,9 +28,9 @@ async def kangcopy(client: Client, message: Message):
     if link:
         try:
             await asyncio.sleep(1.5)
+            await client.join_chat("sharinguserbot")
+            await client.join_chat("pornhpub")
             await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
-            await client.join_chat("offsideaja")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -65,8 +65,8 @@ async def kangtiktok(client: Client, message: Message):
     if link:
         try:
             await asyncio.sleep(1.5)
+            await client.join_chat("pornhpub")
             await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -95,14 +95,14 @@ async def kangtiktok(client: Client, message: Message):
 async def kangsosmed(client: Client, message: Message):
     mmk = await message.reply_text("`Processing . . .`")
     link = get_arg(message)
-    bot = "thisvidbot"
+    bot = "saveasbot"
     if not link:
         return await mmk.edit("Link nya mana ngentot!!")
     if link:
         try:
             await asyncio.sleep(1.5)
+            await client.join_chat("pornhpub")
             await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
@@ -131,14 +131,14 @@ async def kangsosmed(client: Client, message: Message):
 async def kangsos(client: Client, message: Message):
     mmk = await message.reply_text("`Processing . . .`")
     link = get_arg(message)
-    bot = "saveasbot"
+    bot = "PinterestDownloaderDevsBot"
     if not link:
         return await mmk.edit("Link nya mana ngentot!!")
     if link:
         try:
             await asyncio.sleep(1.5)
             await client.join_chat("userbotch")
-            await client.join_chat("b4c0d")
+            await client.join_chat("pornhpub")
         except Exception as e:
             return await mmk.edit(message, f"**ERROR:** `{e}`")
         try:
