@@ -77,7 +77,7 @@ async def kangtiktok(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=1):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by [🔥 Collas](https://t.me/kjisses)")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -113,7 +113,7 @@ async def kangsosmed(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=2):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by [🔥 Collas](https://t.me/kjisses)")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -149,7 +149,7 @@ async def kangsos(client: Client, message: Message):
             await a.delete()
             await tai.delete()
             async for c in client.get_chat_history(bot, limit=1):
-                await c.copy(message.chat.id, caption="Powered by ©️ Geez|Ram")
+                await c.copy(message.chat.id, caption="Powered by [🔥 Collas](https://t.me/kjisses)")
             await client.delete_message(bot, link)
         except BaseException:
             pass
@@ -185,7 +185,7 @@ async def convert_image(client: Client, message: Message):
         if result.photo:
             await message.edit("uploading...")
             converted_image_file = await client.download_media(result)
-            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Geez|Ram")
+            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by [🔥 Collas](https://t.me/kjisses)")
             await message.delete()
         else:
             await message.edit("error message ...")
@@ -209,7 +209,7 @@ async def deepfry(client: Client, message: Message):
         if result.photo:
             await message.edit("utiwiii maszehh...")
             converted_image_file = await client.download_media(result)
-            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by ©️ Geez|Ram")
+            await client.send_photo(message.chat.id, converted_image_file, caption="Powered by [🔥 Collas](https://t.me/kjisses)")
             await message.delete()
         else:
             await message.edit("error message ...")
