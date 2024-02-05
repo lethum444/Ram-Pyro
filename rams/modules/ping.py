@@ -106,7 +106,7 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await rams.edit(
-        f"**𝗣𝘆𝗿𝗼-𝗠𝗮𝘀𝘁𝗲𝗿**\n"
+        f"**𝗖𝗼𝗹𝗹𝗮𝘀-𝗠𝗮𝘀𝘁𝗲𝗿**\n"
         f"** ➠  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ➠  Uᴘᴛɪᴍᴇ  :** "
