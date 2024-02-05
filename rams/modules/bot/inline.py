@@ -66,7 +66,7 @@ async def alive_function(message: Message, answers):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     msg = (
-        f"☞ 𝗥𝗮𝗺𝗣𝘆𝗿𝗼-𝗕𝗼𝘁!!✨\n\n"
+        f"☞ 𝗖𝗼𝗹𝗹𝗮𝘀𝗣𝘆𝗿𝗼-𝗕𝗼𝘁!!✨\n\n"
         f"☞ 𝗦𝗶𝗴𝗻𝗮𝗹: %sms\n"
         f"☞ 𝗨𝗽𝘁𝗶𝗺𝗲: </b> <code>{uptime}</code>" % (duration)
     )
@@ -87,7 +87,7 @@ async def alive_function(message: Message, answers):
 
 async def ping_function(message: Message, answers):
     msg = (
-        f"𝗥𝗮𝗺𝗣𝘆𝗿𝗼-𝗠𝗮𝘀𝘁𝗲𝗿 \n"
+        f"𝗖𝗼𝗹𝗹𝗮𝘀𝗣𝘆𝗿𝗼-𝗠𝗮𝘀𝘁𝗲𝗿 \n"
         "ㅤ⋙ sᴛᴀᴛᴜs : 𝗔𝗸𝘁𝗶𝗳!!! \n"
         f"ㅤㅤ⋙ ᴍᴏᴅᴜʟᴇs: </b> <code>{len(modules)} </code> \n"
         f"ㅤㅤ⋙ ᴠᴇʀsɪ ʙᴏᴛ: {BOT_VER} \n"
@@ -113,7 +113,7 @@ async def ping_function(message: Message, answers):
 async def repo_function(message: Message, answers):
     msg = (
         f"╭✠╼━━━━━━━━━━━━━━━\n"
-        f"│ ✨ 𝗥𝗮𝗺𝗣𝘆𝗿𝗼-𝗕𝗼𝘁 ✨\n"
+        f"│ ✨ 𝗖𝗼𝗹𝗹𝗮𝘀𝗣𝘆𝗿𝗼-𝗕𝗼𝘁 ✨\n"
         f"├✠╼━━━━━━━━━━━━━━━\n"
         f"│★ 𝗕𝗼𝘁 𝗩𝗲𝗿    : {BOT_VER}\n"
         f"│★ 𝗕𝗿𝗮𝗻𝗰𝗵     : {branch}\n"
@@ -129,7 +129,7 @@ async def repo_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⚜ 𝗥𝗲𝗽𝗼 ⚜", url=f"https://github.com/izzy-adeeva/rampyro-master")], [InlineKeyboardButton(text="⚜ 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 ⚜", url=f"https://github.com/izzy-adeeva/rampyro-master/blob/master/LICENSE")]]
+                [[InlineKeyboardButton(text="⚜ 𝗥𝗲𝗽𝗼 ⚜", url=f"https://github.com/GeezRampy/Ram-Pyro")], [InlineKeyboardButton(text="⚜ 𝗟𝗶𝗰𝗲𝗻𝘀𝗲 ⚜", url=f"https://github.com/GeezRampy/Ram-Pyro/blob/master/LICENSE")]]
             ),
         )
     )
