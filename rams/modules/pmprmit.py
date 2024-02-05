@@ -22,12 +22,12 @@ from rams import TEMP_SETTINGS
 from .help import add_command_help
 
 DEF_UNAPPROVED_MSG = (
-    "ROOM CHAT || Ram-Pyro\n"
+    "ROOM CHAT || Collas-Pyro\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
     "HALLO SELAMAT DATANG,\nSAYA ADALAH BOT YANG MENJAGA ROOM CHAT INI\nTUNGGU SAMPAI TUAN\nMENERIMA PESAN ANDA.\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• 𝐁𝐎𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄\n"
-    "┣[• 𝐁𝐘 𝐑𝐚𝐦-𝐏𝐲𝐫𝐨\n"
+    "┣[• 𝐁𝐘 𝗖𝗼𝗹𝗹𝗮𝘀-𝐏𝐲𝐫𝐨\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯"
 )
 
@@ -103,7 +103,7 @@ async def auto_accept(client, message):
             approve(message.chat.id)
             await client.send_message(
                 message.chat.id,
-                f"<b>Menerima Pesan!!!</b>\n{message.from_user.mention} <b>Terdeteksi Developer RamPyro-Bot</b>",
+                f"<b>Menerima Pesan!!!</b>\n{message.from_user.mention} <b>Terdeteksi Developer CollasPyro-Bot</b>",
                 parse_mode=enums.ParseMode.HTML,
             )
         except IntegrityError:
